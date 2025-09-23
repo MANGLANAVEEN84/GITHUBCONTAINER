@@ -25,5 +25,5 @@ RUN apt-get update \
 # Install common frontend dependencies globally (optional, adjust as needed)
 RUN npm install -g yarn vite create-react-app @angular/cli @vue/cli
 
-# Default command (can be changed as needed)
-CMD ["python3"]
+# Update requirements.txt with installed packages each time the container starts
+CMD pip freeze > /app/requirements.txt && python3
