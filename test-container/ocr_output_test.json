@@ -1,0 +1,11 @@
+{
+  "image_file": "test_ocr_image.png",
+  "ocr_text": [
+    "HELLO OCR!",
+    "",
+    "THIS IS A TEST IMAGI",
+    "1234567890",
+    "",
+    "OPENAI COPILOT"
+  ]
+}
